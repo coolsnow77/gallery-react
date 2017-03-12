@@ -140,7 +140,7 @@ git push
 git branch -D gh-pages
 
 # 使用git的subtree将已有项目的某个目录分离成独立项目
-# 并推送到分支 gh-pages
+# 并推送到分支 gh-pages-- github 个人主页
 # prefix指定本地推送的目录
 git subtree push --prefix=dist origin gh-pages
 ```
